@@ -10,3 +10,7 @@ spring:
       ddl-auto: validate  # Flyway crea las migraciones, Hibernate valida
   flyway:
     enabled: true
+
+  profiles:
+    active:
+      - "railway"
