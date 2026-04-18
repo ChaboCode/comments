@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: comments
+  datasource:
+    url: jdbc:postgresql://localhost:5432/commentsdb
+    username: admin
+    password: admin123
+  jpa:
+    hibernate:
+      ddl-auto: validate  # Flyway crea las migraciones, Hibernate valida
+  flyway:
+    enabled: true
