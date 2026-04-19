@@ -1,3 +1,5 @@
+server:
+  port: 7999
 spring:
   application:
     name: comments
